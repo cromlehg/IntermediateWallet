@@ -1,5 +1,5 @@
 {
-  "name": "UBCoiunIntermediateWallet",
+  "name": "IntermediateWallet",
   "version": "1.0.0",
   "description": "",
   "main": "truffle.js",
@@ -31,7 +31,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cromlehg/UBCoiunIntermediateWallet.git"
+    "url": "git+https://github.com/cromlehg/IntermediateWallet.git"
   },
   "keywords": [
     "solidity",
@@ -43,7 +43,7 @@
   "author": "Alexander Strakh",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/cromlehg/UBCoiunIntermediateWallet/issues"
+    "url": "https://github.com/cromlehg/IntermediateWallet/issues"
   },
-  "homepage": "https://github.com/cromlehg/UBCoiunIntermediateWallet#readme"
+  "homepage": "https://github.com/cromlehg/IntermediateWallet#readme"
 }
