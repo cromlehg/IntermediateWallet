@@ -13,7 +13,7 @@
 https://ropsten.etherscan.io/tx/0x82df86b24772f00977813af2037b9901f5cb489f3573149332c74a3e73f70630
 wallet = 0x093A89bDb5CE905fecb6272ff3ac92f53350a79A
 
-* 1 ETH investeed from 0x8fd94be56237ea9d854b23b78615775121dd1e82 , gas = 29291
+* 1 ETH invested from 0x8fd94be56237ea9d854b23b78615775121dd1e82 , gas = 29291
 https://ropsten.etherscan.io/tx/0x155ab95b2453cb9b74696ac95f7e04d18541bc1c4200dc18b1f472c23181a49b
 => 1 ETH transfer to wallet 0x093A89bDb5CE905fecb6272ff3ac92f53350a79A
 
