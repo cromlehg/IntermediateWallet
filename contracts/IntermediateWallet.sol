@@ -8,7 +8,6 @@ contract IntermediateWallet is Ownable {
   address public wallet;
   
   function IntermediateWallet() public {
-    super();
     wallet = owner;
   }
   
