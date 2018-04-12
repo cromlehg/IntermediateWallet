@@ -6,10 +6,6 @@ import './token/ERC20Basic.sol';
 contract IntermediateWallet is Ownable {
     
   address public wallet;
-
-  function SimpleDistributor() public {
-    owner = msg.sender;
-  }
   
   function setWallet(address newWallet) public onlyOwner {
     wallet = newWallet;
