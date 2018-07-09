@@ -59,12 +59,6 @@ export default function (Token, IntermediateWallet, wallets) {
     const tokensInvestment = tokens(100);
     await token.mint(intermediatewallet.address, tokensInvestment, {from: wallets[0]});
     await intermediatewallet.retrieveTokens(wallets[4], token.address, {from: wallets[3]}).should.be.rejectedWith(EVMRevert);
-  });
-
-  it ('should set sender as owner', async function () {
-    await intermediatewallet.SimpleDistributor({from: wallets[6]});
-    const owner = await intermediatewallet.owner();
-    assert.equal(owner, wallets[6]);
   }); 
 
 }
